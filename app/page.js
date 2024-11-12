@@ -15,9 +15,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>app/page.js</code>.
+            Get started by editing <code>Bilada</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Bem vindo ao Impacta Commerce.</li>
         </ol>
 
         <div className={styles.ctas}>
