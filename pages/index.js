@@ -26,12 +26,17 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <h1>
-            Bem-vindo(a) ao Impacta Commerce.
-          </h1>
+          <Image
+            className={styles.logo}
+            src="/next.svg"
+            alt="Next.js logo"
+            width={180}
+            height={38}
+            priority
+          />
           <ol>
             <li>
-              Get started by editing <code>pages/index.tsx</code>.
+              Get started by editing <code>pages/index.js</code>.
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
